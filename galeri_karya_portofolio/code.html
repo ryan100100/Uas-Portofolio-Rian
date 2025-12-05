@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Galeri Karya Portofolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#135bec",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101622",
+            },
+            fontFamily: {
+              "display": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<!-- Top App Bar -->
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10">
+<div class="flex size-12 shrink-0 items-center">
+<span class="material-symbols-outlined text-zinc-900 dark:text-white" style="font-size: 24px;">arrow_back</span>
+</div>
+<h2 class="text-zinc-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Galeri Karya</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-zinc-900 dark:text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined" style="font-size: 24px;">tune</span>
+</button>
+</div>
+</div>
+<!-- Main Content Area -->
+<main class="flex-1 overflow-y-auto">
+<!-- Image Grid -->
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4 p-4">
+<div class="bg-cover bg-center flex flex-col gap-2 rounded-lg justify-end p-3 aspect-[3/4] relative overflow-hidden group" data-alt="A stylized poster of a sports car with bold typography." style="background-image:url('/image/IMG_1623.JPG');">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="z-10">
+<p class="text-white text-base font-bold leading-tight">Automotive Poster Design</p>
+<p class="text-white/70 text-xs">Graphic Design</p>
+</div>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-2 rounded-lg justify-end p-3 aspect-[3/4] relative overflow-hidden group" data-alt="A cinematic shot of a car driving through a neon-lit city street at night." style='background-image: url("/image/IMG_1629.JPG");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="z-10">
+<p class="text-white text-base font-bold leading-tight">JDM Photoshoot</p>
+<p class="text-white/70 text-xs">Photography</p>
+</div>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-2 rounded-lg justify-end p-3 aspect-[3/4] relative overflow-hidden group" data-alt="A close-up photoshoot of a classic Japanese domestic market (JDM) car." style='background-image: url("/image/IMG_1622.JPG");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="z-10">
+<p class="text-white text-base font-bold leading-tight"> Party Poster Design</p>
+<p class="text-white/70 text-xs">Graphic Design</p>
+</div>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-2 rounded-lg justify-end p-3 aspect-[3/4] relative overflow-hidden group" data-alt="A vector illustration of a customized sports car with exaggerated features." style='background-image: url("/image/IMG_1620.JPG");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="z-10">
+<p class="text-white text-base font-bold leading-tight">Euro Photoshoot</p>
+<p class="text-white/70 text-xs">Photography</p>
+</div>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-2 rounded-lg justify-end p-3 aspect-[3/4] relative overflow-hidden group" data-alt="Thumbnail showing audio waveforms over a picture of a car's exhaust pipe." style='background-image: url("/image/IMG_1627.jpg");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="z-10">
+<p class="text-white text-base font-bold leading-tight">Car Review  Instagram</p>
+<p class="text-white/70 text-xs">Short-Form Content</p>
+</div>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-2 rounded-lg justify-end p-3 aspect-[3/4] relative overflow-hidden group" data-alt="A wide shot of multiple cars gathered at a local car meet event." style='background-image: url("/image/IMG_1625.JPG");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="z-10">
+<p class="text-white text-base font-bold leading-tight">Car Review  Instagram</p>
+<p class="text-white/70 text-xs">Short-Form Content</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<div class="sticky bottom-0 z-10">
+<div class="flex gap-2 border-t border-zinc-200 dark:border-zinc-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-lg px-4 pb-3 pt-2">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-zinc-500 dark:text-zinc-400" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">home</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-primary" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined fill">grid_view</span>
+</div>
+<p class="text-xs font-bold leading-normal tracking-[0.015em]">Portfolio</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-zinc-500 dark:text-zinc-400" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">person</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">About</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-zinc-500 dark:text-zinc-400" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Contact</p>
+</a>
+</div>
+</div>
+</div>
+</body></html>
